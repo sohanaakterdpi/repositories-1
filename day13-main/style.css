@@ -1,0 +1,81 @@
+body{
+    background: url(./assets/images/bg_main.gif) center;
+}
+.cont{
+    width: 996px;
+    margin: 0 auto;
+}
+/* topbar start */
+.topbar{
+    background: rgb(204, 0, 255);
+    height: 30px;
+    color: white;
+    font-size: 14px;
+    line-height: 30px;
+    border-bottom: 2px solid red;
+}
+.topbar_right p{
+    display: inline-block;
+    border-right: 1px solid white;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+.topbar_right a{
+    text-decoration: none;
+    color: white;
+}
+/* topbar end */
+/* logo part start */
+.logo{
+    height: 110px;
+    
+}
+.logo_left{
+    line-height: 110px;
+}
+.logo_search{
+    padding-top: 45px;
+}
+form input{
+    width: 75%;
+}
+.logo_right{
+    padding-top: 35px;
+}
+.logo1{
+    border-right: 1px solid rgb(221, 209, 224);
+    height: 45px;
+    padding-right:10px ;
+    margin-right: 10px;
+    position: relative;
+    top: 15%;
+}
+
+.logo2 p{
+    height:10px;
+    font-size:13px ;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 15%;
+}
+/* logo part end */
+/* menubar start */
+.navbar ul li a{
+    border-right: 1px solid rgb(122, 137, 141) ;
+}
+.navbar ul li a:hover{
+    background: rgb(109, 240, 22); 
+    color: white;
+    padding: 10px;
+}
+/* menubar end */
+/* body start */
+.main-body-leftsidebar{
+    border: 2px solid red;
+    padding: 10px;
+}
+.slider{
+    height: 300px;
+    padding: 10px;
+}
+/* body end */
